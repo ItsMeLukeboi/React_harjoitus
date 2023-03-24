@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
+
 export const Router = () =>{
 return(
     <>
@@ -15,6 +16,9 @@ return(
                 </li>
                 <li>
                     <Link to = "/Counters">Counters</Link>
+                </li>
+                <li>
+                    <Link to = "/items">items</Link>
                 </li>
             </ul>
          </div>
