@@ -20,6 +20,9 @@ return(
                 <li>
                     <Link to = "/items">items</Link>
                 </li>
+                <li>
+                    <Link to = "/List">List</Link>
+                </li>
             </ul>
          </div>
          <Outlet/>
