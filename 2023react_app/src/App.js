@@ -6,6 +6,7 @@ import {Counters} from "./pages/Counters";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import{ Items } from "./pages/Items";
 import{List} from "./pages/List";
+import { TicTacToe } from "./TicTacToe/TicTacToe";
 
 function App() 
 {
@@ -19,6 +20,7 @@ function App()
             <Route path='Counters' element={<Counters/>}/>
             <Route path='Items' element={<Items/>}/>
             <Route path='List' element={<List/>}/>
+            <Route path='TicTacToe' element={<TicTacToe/>}/>
           </Route>
         </Routes>
       </div>
