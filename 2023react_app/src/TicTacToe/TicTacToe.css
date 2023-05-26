@@ -32,3 +32,20 @@
     flex-direction: column;
     color: black;
 }
+.game button{
+    width: 17%;
+}
+
+.scoreboard{
+    width: 17.2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 2% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    border-radius: 2px;
+}
